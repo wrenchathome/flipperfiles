@@ -1,0 +1,4 @@
+REM Show Desktop
+
+DELAY 1000
+GUI D
