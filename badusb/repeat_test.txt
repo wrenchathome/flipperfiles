@@ -1,0 +1,7 @@
+REM Repeast Hello World output 10x with 2sec delay
+
+DEFAULTDELAY 2000
+DELAY 1000
+STRING Hello world 
+REPEAT 10
+
