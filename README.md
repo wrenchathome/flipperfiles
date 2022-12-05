@@ -1,2 +1,2 @@
-# coolflip2electricboogaloo
-Other FlipperZero files like badusb scripts 
+# coolflipper extra stuff
+Other FlipperZero files, like badusb scripts 
